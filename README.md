@@ -57,3 +57,16 @@ A well-designed booking system is critical for success. Clear navigation, intuit
 
 ### The Importance of Identifying Design Properties
 Identifying these specific design properties (colors, fonts, sizes) upfront is crucial. It ensures visual consistency across all components, allows developers to accurately translate the design into code, and significantly speeds up the development process by defining a clear design system.
+
+## 👥 Project Roles and Responsibilities
+
+| Role | Key Responsibilities and Contribution |
+| ---- | ---- |
+| Project Manager | Oversees the overall project timeline, coordinates the team's efforts, tracks progress, and manages key deliverables to ensure the project stays on schedule. |
+| Product Owner | Defines the requirements, maintains the feature backlog, prioritizes user stories, and acts as the representative for the stakeholders and user needs. |
+| Scrum Master | Facilitates agile processes (e.g., daily stand-ups, sprints), removes roadblocks, and organizes meetings to ensure the team adheres to best practices. |
+| Frontend Developers | Implements the UI components, integrates with the backend APIs, and ensures the application is highly responsive and meets all design specifications. |
+| Backend Developers | Builds the necessary REST APIs, manages the database schema and integrity, and implements core business logic (e.g., booking validation, authentication). |
+| Designers | Creates high-fidelity mockups, maintains the design system in Figma, and ensures a high-quality, user-centric experience (UX). |
+| QA/Testers | Develops and executes test cases (unit, integration, end-to-end), performs comprehensive testing, and reports bugs to maintain code quality. |
+| DevOps Engineers | Manages the deployment environment, sets up the Continuous Integration/Continuous Deployment (CI/CD) pipeline, and maintains server infrastructure. |
