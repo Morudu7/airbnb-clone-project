@@ -75,17 +75,18 @@ Identifying these specific design properties (colors, fonts, sizes) upfront is c
 
 ---
 
-## UI Component Patterns
+## 🧩 UI Component Patterns
 
 To maximize reusability and maintain consistency, the frontend will be built using a component-based architecture.
 
-#### Navbar
-The main navigation component at the top of the page. It will contain the Logo, a primary Search Bar, User Navigation links (e.g., Host a Home, Sign In/Up), and a Responsive Menu toggle for mobile views.
+### Planned Components
+1. Navbar</br>
+   -The main navigation component at the top of the page. It will contain the Logo, a primary Search Bar, User Navigation links (e.g., Host a Home, Sign In/Up), and a Responsive Menu toggle for mobile views.
 
-#### Property Card
-A reusable card component dedicated to displaying a single listing in the listing view. Contents include a high-resolution Property Image, basic property Details (price, location, rating), and a Favorite Button. Designed for a responsive grid layout.
+2. Property Card</br>
+   -A reusable card component dedicated to displaying a single listing in the listing view. Contents include a high-resolution Property Image, basic property Details (price, location, rating), and a Favorite Button. Designed for a responsive grid layout.
 
-#### Footer
-The bottom section of the application providing secondary information. It will include Site Links (e.g., About Us, Help), Company Information, Social Media Links, and the necessary Copyright Information.
+3. Footer</br>
+   -The bottom section of the application providing secondary information. It will include Site Links (e.g., About Us, Help), Company Information, Social Media Links, and the necessary Copyright Information.
 
 Each component will be designed to be stateless where possible and easily adaptable to different data inputs.
