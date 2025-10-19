@@ -1,5 +1,5 @@
 # AIRBNB-CLONE PROJECT
- ## Project Overview
+ ## 🎯 Project Overview
  This project is a front-end clone of the popular accommodation booking platform AirBnB.</br>
  The goal is to build a functional web application that allows users to: 
  1. Browse property listings.
@@ -15,7 +15,7 @@ The project will cover frontend development, backend APIs, database design, and 
 
 ---
 
-# UI/UX Design Planning
+## 🎨 UI/UX Design Planning
 ### Design Goals
 The primary design goals for the application are:
 - Create an intuitive booking flow with minimal friction.
@@ -58,7 +58,9 @@ A well-designed booking system is critical for success. Clear navigation, intuit
 ### The Importance of Identifying Design Properties
 Identifying these specific design properties (colors, fonts, sizes) upfront is crucial. It ensures visual consistency across all components, allows developers to accurately translate the design into code, and significantly speeds up the development process by defining a clear design system.
 
-## 👥 Project Roles and Responsibilities
+---
+
+## 👨🏿‍🤝‍👨🏻 Project Roles and Responsibilities
 
 | Role | Key Responsibilities and Contribution |
 | ---- | ---- |
@@ -70,3 +72,20 @@ Identifying these specific design properties (colors, fonts, sizes) upfront is c
 | Designers | Creates high-fidelity mockups, maintains the design system in Figma, and ensures a high-quality, user-centric experience (UX). |
 | QA/Testers | Develops and executes test cases (unit, integration, end-to-end), performs comprehensive testing, and reports bugs to maintain code quality. |
 | DevOps Engineers | Manages the deployment environment, sets up the Continuous Integration/Continuous Deployment (CI/CD) pipeline, and maintains server infrastructure. |
+
+---
+
+## UI Component Patterns
+
+To maximize reusability and maintain consistency, the frontend will be built using a component-based architecture.
+
+#### Navbar
+The main navigation component at the top of the page. It will contain the Logo, a primary Search Bar, User Navigation links (e.g., Host a Home, Sign In/Up), and a Responsive Menu toggle for mobile views.
+
+#### Property Card
+A reusable card component dedicated to displaying a single listing in the listing view. Contents include a high-resolution Property Image, basic property Details (price, location, rating), and a Favorite Button. Designed for a responsive grid layout.
+
+#### Footer
+The bottom section of the application providing secondary information. It will include Site Links (e.g., About Us, Help), Company Information, Social Media Links, and the necessary Copyright Information.
+
+Each component will be designed to be stateless where possible and easily adaptable to different data inputs.
